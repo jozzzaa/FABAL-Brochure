@@ -1,0 +1,235 @@
+/*
+
+		Global Pageflip Styles
+		
+*/
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#pageflip {
+  width: 100%;
+  background: #444444;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+#pf-pagerin {
+  font-family: "Fauna One", "Lucida Grande", Helvetica, sans-serif;
+}
+#pf-stage {
+  background: #444444;
+}
+/*
+	
+		Container HTML Page Styles
+		
+*/
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Trirong", serif;
+  color: #bf996c;
+  font-size: 4em;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 1.7em;
+  font-weight: 100;
+}
+
+#page2,
+#page3,
+#page4,
+#page5,
+#page6,
+#page7,
+#page8,
+#page9 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: 3px solid #bf996c;
+}
+
+#page1content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 150px;
+  text-align: center;
+}
+
+#cover_logo {
+  width: 275px;
+  padding-top: 30px;
+}
+
+#page1content h3 {
+  padding-top: 550px;
+}
+
+#page2 {
+  background: url(../images/intro/intro-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#page3 {
+  background: url(../images/page3/page3-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#page3content {
+  /* width: 954px; */
+  padding: 50px;
+}
+
+.qb3 {
+  display: flex !important;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  padding: 30px 30px 60px 30px;
+}
+
+.qb3 img {
+  width: 33.333%;
+  padding: 7px;
+  transition: 0.3s;
+}
+
+.qb3 img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+#page4 {
+  background: url(../images/page4/page4-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.qb4 {
+  display: flex !important;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  padding: 100px 150px 80px 100px;
+}
+
+.qb4 img {
+  width: 50%;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.qb4 img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+#page5 {
+  background: url(../images/page5/page5-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.features_qb img {
+  width: 100%;
+}
+
+#page8 {
+  background: url(../images/page8/page8-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.p8_links {
+  position: absolute;
+  bottom: 100px;
+  left: 110px;
+  width: 730px;
+  height: 770px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.p8_links img {
+  width: 50%;
+  padding: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.p8_links img:hover {
+  opacity: 0.8;
+}
+
+#page9 {
+  background: url(../images/page9/page9-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.features img {
+  width: 100%;
+}
+
+.off {
+  display: none;
+}
+
+#page10 {
+  background: url(../images/page10/page10-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact_details {
+  width: 760px;
+  height: 220px;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 50px 20px 50px;
+}
+
+.contact_details a {
+  width: 50%;
+  padding: 0px 30px 30px 30px;
+}
+
+.contact_item {
+  width: 100%;
+}

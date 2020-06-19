@@ -1,0 +1,1 @@
+﻿var Key = { Copyright: "Copyright Fabal 2020", Key: "J363Q5o6B4ylQvXNRV5d"};
