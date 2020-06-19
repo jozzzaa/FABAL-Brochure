@@ -206,6 +206,10 @@ h3 {
 
 .off {
   display: none;
+  -webkit-transition: max-height 0.5s ease;
+  -moz-transition: max-height 0.5s ease;
+  -o-transition: max-height 0.5s ease;
+  transition: max-height 0.5s ease;
 }
 
 #page10 {
