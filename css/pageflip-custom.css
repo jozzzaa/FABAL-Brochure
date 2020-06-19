@@ -116,7 +116,8 @@ h3 {
 
 .qb3 img:hover {
   cursor: pointer;
-  opacity: 0.9;
+  filter: brightness(1.2);
+  transform: scale(1.05);
 }
 
 #page4 {
@@ -145,7 +146,8 @@ h3 {
 
 .qb4 img:hover {
   cursor: pointer;
-  opacity: 0.9;
+  filter: brightness(1.2);
+  transform: scale(1.05);
 }
 
 #page5 {
@@ -216,18 +218,35 @@ h3 {
 
 .contact_details {
   width: 760px;
-  height: 220px;
+  height: 230px;
   position: absolute;
   bottom: 100px;
   left: 100px;
   display: flex;
   flex-wrap: wrap;
-  padding: 20px 50px 20px 50px;
+  padding: 0px 50px 20px 50px;
+  /* border: 1px solid red; */
 }
 
 .contact_details a {
-  width: 50%;
-  padding: 0px 30px 30px 30px;
+  width: 45%;
+  padding: 15px 20px 15px 20px;
+  transition: 0.5s;
+}
+
+.contact_details a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  transform: scale(1.025);
+}
+
+.contact_details a:nth-child(2) {
+  width: 52%;
+  padding-left: 35px;
+}
+
+.contact_details a:nth-child(3) {
+  padding-right: 40px;
 }
 
 .contact_item {
