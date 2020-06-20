@@ -219,13 +219,62 @@ p {
 
 .bg_image {
   height: 1350px;
-  width: 100%;
+  width: 1908px;
   position: relative;
   z-index: 1;
+  /* border: 5px solid red; */
 }
 
 .bgi_left {
-  background: url(../images/page6/lake.jpg) no-repeat left center;
+  background: url(../images/page6/1.jpg) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.one {
+  background: url(../images/page6/1.jpg) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.two {
+  background: url(../images/page6/2.jpg) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.three {
+  background: url(../images/page6/3.jpg) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.four {
+  background: url(../images/page6/4.jpg) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.five {
+  background: url(../images/page6/5.jpg) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.six {
+  background: url(../images/page6/6.jpg) no-repeat left center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -233,7 +282,55 @@ p {
 }
 
 .bgi_right {
-  background: url(../images/page6/lake.jpg) no-repeat -954px center;
+  background: url(../images/page6/1.jpg) no-repeat -954px center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.one_r {
+  background: url(../images/page6/1.jpg) no-repeat -954px center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.two_r {
+  background: url(../images/page6/2.jpg) no-repeat -954px center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.three_r {
+  background: url(../images/page6/3.jpg) no-repeat -954px center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.four_r {
+  background: url(../images/page6/4.jpg) no-repeat -954px center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.five_r {
+  background: url(../images/page6/5.jpg) no-repeat -954px center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.six_r {
+  background: url(../images/page6/6.jpg) no-repeat -954px center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -254,6 +351,13 @@ p {
 
 .water_blurb {
   padding: 15px;
+  transition: 0.3s;
+}
+
+.water_blurb:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  transform: scale(1.025);
 }
 
 #page8 {

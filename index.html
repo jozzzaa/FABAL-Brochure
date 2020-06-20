@@ -115,7 +115,7 @@
         <div class="bg_image bgi_left"></div>
         <div class="bg_overlay bg_left"></div>
         <div class="water_grid">
-          <div class="water_blurb">
+          <div class="water_blurb" onclick="waterBG('one');">
             <h2>Water Rights Management</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -123,7 +123,7 @@
               condimentum, vulputate mauris ut, auctor eros.
             </p>
           </div>
-          <div class="water_blurb">
+          <div class="water_blurb" onclick="waterBG('two');">
             <h2>Pipeline Development</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -131,7 +131,7 @@
               condimentum, vulputate mauris ut, auctor eros.
             </p>
           </div>
-          <div class="water_blurb">
+          <div class="water_blurb" onclick="waterBG('three');">
             <h2>Water Transport</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -145,7 +145,7 @@
         <div class="bg_overlay bg_right"></div>
         <div class="bg_image bgi_right"></div>
         <div class="water_grid">
-          <div class="water_blurb">
+          <div class="water_blurb" onclick="waterBG('four');">
             <h2>Desalination Plant Installation & Management</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -153,7 +153,7 @@
               condimentum, vulputate mauris ut, auctor eros.
             </p>
           </div>
-          <div class="water_blurb">
+          <div class="water_blurb" onclick="waterBG('five');">
             <h2>Aquifier Storage & Recovery Systems</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -161,7 +161,7 @@
               condimentum, vulputate mauris ut, auctor eros.
             </p>
           </div>
-          <div class="water_blurb">
+          <div class="water_blurb" onclick="waterBG('six');">
             <h2>Water Storage Development & Infastructure</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -687,6 +687,12 @@
         $("#feature_qb" + f).removeClass("off");
         $("#featurelist ul li").removeClass("selected");
         $("#option" + f).addClass("selected");
+      };
+
+      waterBG = function (num) {
+        // $(".bgi-left").removeClass("bgi_left");
+        $(".bgi_left").attr("class", "bg_image bgi_left " + num);
+        $(".bgi_right").attr("class", "bg_image bgi_right " + num + "_r");
       };
 
       animation = function (t) {
